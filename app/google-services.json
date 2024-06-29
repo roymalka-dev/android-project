@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1085538182550",
+    "project_id": "social-media-c5cfd",
+    "storage_bucket": "social-media-c5cfd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085538182550:android:ab5693bd0a2aeae03e29b7",
+        "android_client_info": {
+          "package_name": "com.example.socialmedia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHjMklEZFyffxlpz19bCOakxadq-RVpPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

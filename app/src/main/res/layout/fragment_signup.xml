@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="16dp"
+    android:padding="16dp"
+    android:backgroundTint="#969696"
+    app:cardCornerRadius="12dp"
+  >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_below="@+id/imageViewProfile"
+            android:hint="Username" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_below="@id/editTextUsername"
+            android:hint="Email" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/editTextEmail"
+            android:hint="Password"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:inputType="textPassword" />
+
+        <ImageView
+            android:id="@+id/imageViewEye"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/editTextEmail"
+            android:layout_alignEnd="@id/editTextPassword"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_eye" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageViewProfile"
+            android:layout_width="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/profiledefault" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/imageViewSignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Signup"
+            android:backgroundTint="#585756"
+            android:textColor="@android:color/white"
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

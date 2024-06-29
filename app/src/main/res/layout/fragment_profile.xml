@@ -1,0 +1,108 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#969696"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:padding="16dp">
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffffff"
+            app:contentPadding="3dp"
+            app:cardCornerRadius="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/imageViewProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:contentDescription="Profile Image" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonChangeProfileImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Change Profile Image?"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#585756"
+            android:layout_gravity="center_horizontal"
+
+            app:backgroundTint="#585756" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+
+    >
+
+        <TextView
+            android:id="@+id/textViewUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Username"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonEditUsername"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/edit"
+            />
+</LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Email"
+            android:layout_gravity="center_horizontal"
+
+            android:textSize="16sp"
+            android:textColor="@android:color/white" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    >
+
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Logout"
+
+            android:textColor="@android:color/white"
+            android:backgroundTint="#585756"
+            app:backgroundTint="#585756" />
+</LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
